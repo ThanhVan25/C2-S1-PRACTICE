@@ -30,9 +30,9 @@ function App() {
       <h1>PNV React Team !!</h1>
       <p>Here are some PNV React masters, do you know them?</p>
       <User title={vinhData.title}
-       firstName={vinhData.firstName}/>
+       firstName={vinhData.firstName} lastName={vinhData.lastName}/>
       <User title={myData.title}
-       firstName={myData.firstName} /> 
+       firstName={myData.firstName} lastName={myData.lastName}/> 
     </div>
   );
 }
