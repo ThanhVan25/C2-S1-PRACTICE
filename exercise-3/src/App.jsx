@@ -18,8 +18,7 @@ function App() {
     <div id="app">
       <h1>PNV Team !!</h1>
       <p>Here are some PNV trainers and educators, do you know them?</p>
-      {ALL_PNV_TEACHERS.map((teacher) => (
-        <User key={teacher.id} user={teacher} />
+      {ALL_PNV_TEACHERS.map((teacher)=>(<User key={teacher.id} user={teacher} />
       ))}
     </div>
   );
